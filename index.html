@@ -5,15 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pushyan Jhaveri | Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background: #333; color: white; padding: 1em; text-align: center; }
-        nav ul { list-style: none; padding: 0; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { 
+            background: url('https://source.unsplash.com/1600x900/?technology,data') no-repeat center center/cover;
+            color: white; 
+            padding: 3em; 
+            text-align: center;
+            position: relative;
+        }
+        header h1 { font-size: 2.5em; background: rgba(0, 0, 0, 0.6); display: inline-block; padding: 10px; border-radius: 10px; }
+        nav ul { list-style: none; padding: 0; text-align: center; }
         nav ul li { display: inline; margin: 0 15px; }
-        nav ul li a { color: white; text-decoration: none; }
-        section { padding: 20px; }
-        .project-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-        .project { background: #eee; padding: 10px; text-align: center; }
-        footer { text-align: center; padding: 10px; background: #333; color: white; }
+        nav ul li a { color: white; text-decoration: none; font-weight: bold; font-size: 1.2em; }
+        section { padding: 40px; text-align: center; }
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .project { background: white; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); }
+        footer { text-align: center; padding: 20px; background: #222; color: white; }
+        .button { display: inline-block; padding: 10px 20px; margin-top: 10px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; }
+        .button:hover { background: #0056b3; }
     </style>
 </head>
 <body>
@@ -46,16 +55,19 @@
     <section id="experience">
         <h2>Experience</h2>
         <p>5 years of experience in Data Science, Machine Learning, and Healthcare Analytics.</p>
+        <a href="#experience" class="button">Learn More</a>
     </section>
     
     <section id="about">
         <h2>About Me</h2>
         <p>Brief introduction about Pushyan Jhaveri, including skills, background, and expertise.</p>
+        <a href="#about" class="button">Read More</a>
     </section>
     
     <section id="achievements">
         <h2>Achievements</h2>
         <p>List of professional and academic achievements.</p>
+        <a href="#achievements" class="button">View Achievements</a>
     </section>
     
     <footer>
