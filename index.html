@@ -5,38 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pushyan Jhaveri | Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #000; color: white; }
         header { 
-            background: url('https://source.unsplash.com/1600x900/?technology,data') no-repeat center center/cover;
+            background: url('https://source.unsplash.com/1600x900/?artificial-intelligence,data-science') no-repeat center center/cover;
             color: white; 
             padding: 3em; 
             text-align: center;
             position: relative;
         }
         header h1 { font-size: 2.5em; background: rgba(0, 0, 0, 0.6); display: inline-block; padding: 10px; border-radius: 10px; }
-        nav ul { list-style: none; padding: 0; text-align: center; }
+        nav ul { list-style: none; padding: 0; text-align: center; background: #222; margin: 0; padding: 15px; }
         nav ul li { display: inline; margin: 0 15px; }
         nav ul li a { color: white; text-decoration: none; font-weight: bold; font-size: 1.2em; }
         section { padding: 40px; text-align: center; }
         .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-        .project { background: white; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); }
+        .project { background: #333; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2); }
         footer { text-align: center; padding: 20px; background: #222; color: white; }
         .button { display: inline-block; padding: 10px 20px; margin-top: 10px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; }
         .button:hover { background: #0056b3; }
+        .profile-pic { width: 150px; border-radius: 50%; margin-top: 20px; }
     </style>
 </head>
 <body>
     <header>
         <h1>Pushyan Jhaveri</h1>
-        <nav>
-            <ul>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-            </ul>
-        </nav>
     </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Explore my work, experience, and skills in Data Science and Analytics.</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Pushyan Jhaveri" class="profile-pic">
+        <p>Brief introduction about Pushyan Jhaveri, including skills, background, and expertise.</p>
+    </section>
     
     <section id="projects">
         <h2>Projects</h2>
@@ -55,19 +70,17 @@
     <section id="experience">
         <h2>Experience</h2>
         <p>5 years of experience in Data Science, Machine Learning, and Healthcare Analytics.</p>
-        <a href="#experience" class="button">Learn More</a>
     </section>
     
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Brief introduction about Pushyan Jhaveri, including skills, background, and expertise.</p>
-        <a href="#about" class="button">Read More</a>
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Python, SQL, Tableau, Machine Learning, Data Analysis, Cloud Computing (AWS), and more.</p>
     </section>
     
-    <section id="achievements">
-        <h2>Achievements</h2>
-        <p>List of professional and academic achievements.</p>
-        <a href="#achievements" class="button">View Achievements</a>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: pushyanjhaveri@example.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/pushyanjhaveri</a></p>
     </section>
     
     <footer>
