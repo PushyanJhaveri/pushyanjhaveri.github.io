@@ -1,219 +1,253 @@
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Portfolio - Data Analyst &amp; Data Scientist
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-  <style>
-   body {
-            font-family: 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
-        }
-  </style>
- </head>
- <body class="text-gray-800">
-  <header class="bg-white shadow-md">
-   <div class="container mx-auto flex justify-between items-center p-5">
-    <div class="text-2xl font-bold text-gray-900">
-     Pushyan Jhaveri
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+Portfolio - Data Analyst &amp; Data Scientist
+</title>
+<script src="https://cdn.tailwindcss.com">
+</script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<style>
+body {
+font-family: 'Roboto', sans-serif;
+background: linear-gradient(135deg, #1a202c 0%, #374151 100%);
+color: #e2e8f0;
+}
+
+header.bg-white{
+background-color: #1f2937;
+}
+
+.text-gray-800{
+color:#e2e8f0;
+}
+
+.text-gray-900{
+color:#e2e8f0;
+}
+
+.text-gray-700{
+color:#cbd5e1;
+}
+
+.bg-white{
+background-color: #2d3748;
+}
+
+.bg-gray-100{
+background-color: #4a5568;
+}
+
+.text-blue-500{
+color:#63b3ed;
+}
+
+footer.bg-white{
+background-color: #1f2937;
+}
+
+</style>
+</head>
+<body class="text-gray-800">
+<header class="bg-white shadow-md">
+<div class="container mx-auto flex justify-between items-center p-5">
+<div class="text-4xl font-bold text-gray-900">
+Pushyan Jhaveri
+</div>
+<nav class="space-x-4">
+<a class="text-gray-700 hover:text-gray-900" href="#about">
+About Me
+</a>
+<a class="text-gray-700 hover:text-gray-900" href="#projects">
+Projects
+</a>
+<a class="text-gray-700 hover:text-gray-900" href="#experience">
+Experience
+</a>
+<a class="text-gray-700 hover:text-gray-900" href="#skills">
+Skills
+</a>
+<a class="text-gray-700 hover:text-gray-900" href="#contact">
+Contact Me
+</a>
+</nav>
+</div>
+</header>
+<section class="container mx-auto my-10 p-5 bg-white shadow-md rounded-lg relative" id="about">
+<img alt="Decorative background image for About Me section" class="absolute inset-0 w-full h-full object-cover opacity-10" height="400" src="https://storage.googleapis.com/a1aa/image/l13J0hnsYBuAnPkIR3UxAdwbSYSiuyIeMF2_WGUMuAg.jpg" width="800"/>
+<div class="relative flex flex-col md:flex-row items-center">
+<img alt="Profile picture of Pushyan Jhaveri" class="rounded-full w-32 h-32 md:w-48 md:h-48" height="150" src="./Images/profile.jpg" width="150"/>
+<div class="md:ml-10 mt-5 md:mt-0 text-center md:text-left">
+<h2 class="text-2xl md:text-3xl font-bold text-gray-900">
+About Me
+</h2>
+<p class="mt-3 text-gray-700">
+I am a passionate Data Analyst and Data Scientist with a strong background in data analysis, machine learning, and statistical modeling. I enjoy turning complex data into actionable insights and have a knack for solving challenging problems.
+</p>
+</div>
+</div>
+</section>
+<section class="container mx-auto my-10 p-5 bg-white shadow-md rounded-lg relative" id="projects">
+<img alt="Decorative background image for Projects section" class="absolute inset-0 w-full h-full object-cover opacity-10" height="400" src="https://storage.googleapis.com/a1aa/image/z1ZU-gAUSU3j0jTxhjTF-fO5O9fLhPil8TmmXmmVKDY.jpg" width="800"/>
+<div class="relative">
+<h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center md:text-left">
+Projects
+</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
+<div class="bg-gray-100 p-5 rounded-lg shadow-md">
+<img alt="Screenshot of Project 1, a data visualization dashboard" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/Eqno6ykn-0T_blSvmLC2ekhuSsbHsA_HocqozZ6VGQc.jpg" width="300"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+Project 1
+</h3>
+<p class="text-gray-700 mt-2">
+A data visualization dashboard that provides insights into sales performance across different regions.
+</p>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md">
+<img alt="Screenshot of Project 2, a machine learning model prediction interface" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/ITaufVIeevmhI907NutK--REb-IyGwR9TL4GfDMHibc.jpg" width="300"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+Project 2
+</h3>
+<p class="text-gray-700 mt-2">
+A machine learning model that predicts customer churn based on historical data.
+</p>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md">
+<img alt="Screenshot of Project 3, a statistical analysis report" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/Hjf6GCOgJxmEZnKqaGS9sY3PQfJchxanLLS4hicWfro.jpg" width="300"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+Project 3
+</h3>
+<p class="text-gray-700 mt-2">
+A comprehensive statistical analysis report on market trends and consumer behavior.
+</p>
+</div>
+</div>
+<div class="text-center mt-5">
+<a class="text-blue-500 hover:underline" href="all-projects.html">
+More Projects
+</a>
+</div>
+</div>
+</section>
+<section class="container mx-auto my-10 p-5 bg-white shadow-md rounded-lg relative" id="experience">
+<img alt="Decorative background image for Experience section" class="absolute inset-0 w-full h-full object-cover opacity-10" height="400" src="https://storage.googleapis.com/a1aa/image/jOpAI48HUYv9NFKpihd2OqrZzVtYhhT8xMCsX6Tu1tk.jpg" width="800"/>
+<div class="relative">
+<h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center md:text-left">
+Experience
+</h2>
+<div class="mt-5">
+<div class="bg-gray-100 p-5 rounded-lg shadow-md mb-5">
+<h3 class="text-xl font-bold text-gray-900">
+Data Analyst II at KGS Technology Group
+</h3>
+<p class="text-gray-700 mt-2">
+Nov 2024 - Present
+</p>
+<p class="text-gray-700 mt-2">
+● Developed and deployed forecasting models for pharmacy inventory management using ARIMA and LSTM improving forecasting accuracy by 30%.
+</p>
+<p class="text-gray-700 mt-2">
+● Utilized SQL, Python, and cloud-based tools (Azure Data Factory, Databricks) to optimize data pipelines, ensuring faster data processing and real-time analytics.
+</p>
+<p class="text-gray-700 mt-2">
+● Integrated external factors such as seasonality and trends into forecasting models, enhancing prediction accuracy and enabling data-driven decision-making.
+</p>
+<p class="text-gray-700 mt-2">
+● Built and maintained interactive Tableau dashboards, providing real-time insights into prescription trends, inventory performance, and medication demand, reducing stockouts and optimizing inventory levels.
+</p>
+<p class="text-gray-700 mt-2">
+● Implemented AI-driven process improvements to automate reporting and enhance predictive analytics, cutting operational costs by 15%.
+</p>
+<p class="text-gray-700 mt-2">
+● Collaborated with cross-functional teams to align data strategies with business objectives, demonstrating strong problem-solving and communication skills.
+</p>
+<p class="text-gray-700 mt-2">
+● Ensured high data integrity and governance with meticulous attention to detail, facilitating compliance with regulatory standards and improving database performance for efficient data pipelines.
+</p>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md mb-5">
+<h3 class="text-xl font-bold text-gray-900">
+Data Analyst at Advanced Mobility Biomechanics Laboratory
+</h3>
+<p class="text-gray-700 mt-2">
+Nov 2023 - Oct 2024
+</p>
+<p class="text-gray-700 mt-2">
+Responsible for analyzing biomechanical data, creating reports, and providing actionable insights to improve research outcomes.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class="container mx-auto my-10 p-5 bg-white shadow-md rounded-lg relative" id="skills">
+<img alt="Decorative background image for Skills section" class="absolute inset-0 w-full h-full object-cover opacity-10" height="400" src="https://storage.googleapis.com/a1aa/image/71tmawcJxyAQGg7LHyZvc5IbvLCd3NC-BOb5Ej2x9RQ.jpg" width="800"/>
+<div class="relative">
+<h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center md:text-left">
+Skills
+</h2>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-5">
+<div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
+<img alt="Professional icon representing machine learning" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/3v1dPEIVFhOqZS1LEYvEklEhsY4jTduYhzwRCZK94VE.jpg" width="64"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+Machine Learning
+</h3>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
+<img alt="Professional icon representing Python" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NLHQWKorJE1_Mp628Tg5dCbThxOuuIdfVCmNvmU2rDU.jpg" width="64"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+Python
+</h3>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
+<img alt="Professional icon representing SQL" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/zsNqeRbAkXhySujQeWSs1NmNqNPvTppv99aZBOc-rvc.jpg" width="64"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+SQL
+</h3>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
+<img alt="Professional icon representing data analysis" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/Xx60W-d2iN3WDoMeHmVVHj1h5YJW52i5-N7t9l_01Qo.jpg" width="64"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+Data Analysis
+</h3>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
+<img alt="Professional icon representing artificial intelligence" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/3v1dPEIVFhOqZS1LEYvEklEhsY4jTduYhzwRCZK94VE.jpg" width="64"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+Artificial Intelligence
+</h3>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
+<img alt="Professional icon representing Tableau" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NAovl61bZWqQ-MHLuH_PAr4pMKDQIG-EztgjDtrOMg0.jpg" width="64"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+Tableau
+</h3>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
+<img alt="Professional icon representing Power BI" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NAovl61bZWqQ-MHLuH_PAr4pMKDQIG-EztgjDtrOMg0.jpg" width="64"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+Power BI
+</h3>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
+<img alt="Professional icon representing AWS" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NAovl61bZWqQ-MHLuH_PAr4pMKDQIG-EztgjDtrOMg0.jpg" width="64"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+AWS
+</h3>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
+<img alt="Professional icon representing Microsoft Azure" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NAovl61bZWqQ-MHLuH_PAr4pMKDQIG-EztgjDtrOMg0.jpg" width="64"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+Microsoft Azure
+</h3>
+</div>
+<div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
+<img alt="Professional icon representing Docker" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NAovl61bZWqQ-MHLuH_PAr4pMKDQIG-EztgjDtrOMg0.jpg" width="64"/>
+<h3 class="text-xl font-bold text-gray-900 mt-3">
+Docker
+</h3>
     </div>
-    <nav class="space-x-4">
-     <a class="text-gray-700 hover:text-gray-900" href="#about">
-      About Me
-     </a>
-     <a class="text-gray-700 hover:text-gray-900" href="#projects">
-      Projects
-     </a>
-     <a class="text-gray-700 hover:text-gray-900" href="#experience">
-      Experience
-     </a>
-     <a class="text-gray-700 hover:text-gray-900" href="#skills">
-      Skills
-     </a>
-     <a class="text-gray-700 hover:text-gray-900" href="#contact">
-      Contact Me
-     </a>
-    </nav>
-   </div>
-  </header>
-  <section class="container mx-auto my-10 p-5 bg-white shadow-md rounded-lg relative" id="about">
-   <img alt="Decorative background image for About Me section" class="absolute inset-0 w-full h-full object-cover opacity-10" height="400" src="https://storage.googleapis.com/a1aa/image/l13J0hnsYBuAnPkIR3UxAdwbSYSiuyIeMF2_WGUMuAg.jpg" width="800"/>
-   <div class="relative flex flex-col md:flex-row items-center">
-    <img alt="Profile picture of Pushyan Jhaveri" class="rounded-full w-32 h-32 md:w-48 md:h-48" height="150" src="https://github.com/yourusername/images/profile.jpg" width="150"/>
-    <div class="md:ml-10 mt-5 md:mt-0 text-center md:text-left">
-     <h2 class="text-2xl md:text-3xl font-bold text-gray-900">
-      About Me
-     </h2>
-     <p class="mt-3 text-gray-700">
-      I am a passionate Data Analyst and Data Scientist with a strong background in data analysis, machine learning, and statistical modeling. I enjoy turning complex data into actionable insights and have a knack for solving challenging problems.
-     </p>
-    </div>
-   </div>
-  </section>
-  <section class="container mx-auto my-10 p-5 bg-white shadow-md rounded-lg relative" id="projects">
-   <img alt="Decorative background image for Projects section" class="absolute inset-0 w-full h-full object-cover opacity-10" height="400" src="https://storage.googleapis.com/a1aa/image/z1ZU-gAUSU3j0jTxhjTF-fO5O9fLhPil8TmmXmmVKDY.jpg" width="800"/>
-   <div class="relative">
-    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center md:text-left">
-     Projects
-    </h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md">
-      <img alt="Screenshot of Project 1, a data visualization dashboard" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/Eqno6ykn-0T_blSvmLC2ekhuSsbHsA_HocqozZ6VGQc.jpg" width="300"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       Project 1
-      </h3>
-      <p class="text-gray-700 mt-2">
-       A data visualization dashboard that provides insights into sales performance across different regions.
-      </p>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md">
-      <img alt="Screenshot of Project 2, a machine learning model prediction interface" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/ITaufVIeevmhI907NutK--REb-IyGwR9TL4GfDMHibc.jpg" width="300"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       Project 2
-      </h3>
-      <p class="text-gray-700 mt-2">
-       A machine learning model that predicts customer churn based on historical data.
-      </p>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md">
-      <img alt="Screenshot of Project 3, a statistical analysis report" class="rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/Hjf6GCOgJxmEZnKqaGS9sY3PQfJchxanLLS4hicWfro.jpg" width="300"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       Project 3
-      </h3>
-      <p class="text-gray-700 mt-2">
-       A comprehensive statistical analysis report on market trends and consumer behavior.
-      </p>
-     </div>
-    </div>
-    <div class="text-center mt-5">
-     <a class="text-blue-500 hover:underline" href="all-projects.html">
-      More Projects
-     </a>
-    </div>
-   </div>
-  </section>
-  <section class="container mx-auto my-10 p-5 bg-white shadow-md rounded-lg relative" id="experience">
-   <img alt="Decorative background image for Experience section" class="absolute inset-0 w-full h-full object-cover opacity-10" height="400" src="https://storage.googleapis.com/a1aa/image/jOpAI48HUYv9NFKpihd2OqrZzVtYhhT8xMCsX6Tu1tk.jpg" width="800"/>
-   <div class="relative">
-    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center md:text-left">
-     Experience
-    </h2>
-    <div class="mt-5">
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md mb-5">
-      <h3 class="text-xl font-bold text-gray-900">
-       Data Analyst II at KGS Technology Group
-      </h3>
-      <p class="text-gray-700 mt-2">
-       Nov 2024 - Present
-      </p>
-      <p class="text-gray-700 mt-2">
-       ● Developed and deployed forecasting models for pharmacy inventory management using ARIMA and LSTM improving forecasting accuracy by 30%.
-      </p>
-      <p class="text-gray-700 mt-2">
-       ● Utilized SQL, Python, and cloud-based tools (Azure Data Factory, Databricks) to optimize data pipelines, ensuring faster data processing and real-time analytics.
-      </p>
-      <p class="text-gray-700 mt-2">
-       ● Integrated external factors such as seasonality and trends into forecasting models, enhancing prediction accuracy and enabling data-driven decision-making.
-      </p>
-      <p class="text-gray-700 mt-2">
-       ● Built and maintained interactive Tableau dashboards, providing real-time insights into prescription trends, inventory performance, and medication demand, reducing stockouts and optimizing inventory levels.
-      </p>
-      <p class="text-gray-700 mt-2">
-       ● Implemented AI-driven process improvements to automate reporting and enhance predictive analytics, cutting operational costs by 15%.
-      </p>
-      <p class="text-gray-700 mt-2">
-       ● Collaborated with cross-functional teams to align data strategies with business objectives, demonstrating strong problem-solving and communication skills.
-      </p>
-      <p class="text-gray-700 mt-2">
-       ● Ensured high data integrity and governance with meticulous attention to detail, facilitating compliance with regulatory standards and improving database performance for efficient data pipelines.
-      </p>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md mb-5">
-      <h3 class="text-xl font-bold text-gray-900">
-       Data Analyst at Advanced Mobility Biomechanics Laboratory
-      </h3>
-      <p class="text-gray-700 mt-2">
-       Nov 2023 - Oct 2024
-      </p>
-      <p class="text-gray-700 mt-2">
-       Responsible for analyzing biomechanical data, creating reports, and providing actionable insights to improve research outcomes.
-      </p>
-     </div>
-    </div>
-   </div>
-  </section>
-  <section class="container mx-auto my-10 p-5 bg-white shadow-md rounded-lg relative" id="skills">
-   <img alt="Decorative background image for Skills section" class="absolute inset-0 w-full h-full object-cover opacity-10" height="400" src="https://storage.googleapis.com/a1aa/image/71tmawcJxyAQGg7LHyZvc5IbvLCd3NC-BOb5Ej2x9RQ.jpg" width="800"/>
-   <div class="relative">
-    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 text-center md:text-left">
-     Skills
-    </h2>
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-5">
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
-      <img alt="Professional icon representing machine learning" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/3v1dPEIVFhOqZS1LEYvEklEhsY4jTduYhzwRCZK94VE.jpg" width="64"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       Machine Learning
-      </h3>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
-      <img alt="Professional icon representing Python" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NLHQWKorJE1_Mp628Tg5dCbThxOuuIdfVCmNvmU2rDU.jpg" width="64"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       Python
-      </h3>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
-      <img alt="Professional icon representing SQL" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/zsNqeRbAkXhySujQeWSs1NmNqNPvTppv99aZBOc-rvc.jpg" width="64"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       SQL
-      </h3>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
-      <img alt="Professional icon representing data analysis" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/Xx60W-d2iN3WDoMeHmVVHj1h5YJW52i5-N7t9l_01Qo.jpg" width="64"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       Data Analysis
-      </h3>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
-      <img alt="Professional icon representing artificial intelligence" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/3v1dPEIVFhOqZS1LEYvEklEhsY4jTduYhzwRCZK94VE.jpg" width="64"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       Artificial Intelligence
-      </h3>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
-      <img alt="Professional icon representing Tableau" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NAovl61bZWqQ-MHLuH_PAr4pMKDQIG-EztgjDtrOMg0.jpg" width="64"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       Tableau
-      </h3>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
-      <img alt="Professional icon representing Power BI" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NAovl61bZWqQ-MHLuH_PAr4pMKDQIG-EztgjDtrOMg0.jpg" width="64"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       Power BI
-      </h3>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
-      <img alt="Professional icon representing AWS" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NAovl61bZWqQ-MHLuH_PAr4pMKDQIG-EztgjDtrOMg0.jpg" width="64"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       AWS
-      </h3>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
-      <img alt="Professional icon representing Microsoft Azure" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NAovl61bZWqQ-MHLuH_PAr4pMKDQIG-EztgjDtrOMg0.jpg" width="64"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       Microsoft Azure
-      </h3>
-     </div>
-     <div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
-      <img alt="Professional icon representing Docker" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/NAovl61bZWqQ-MHLuH_PAr4pMKDQIG-EztgjDtrOMg0.jpg" width="64"/>
-      <h3 class="text-xl font-bold text-gray-900 mt-3">
-       Docker
-      </h3>
-     </div>
      <div class="bg-gray-100 p-5 rounded-lg shadow-md text-center">
       <img alt="Professional icon representing networking" class="mx-auto w-16 h-16" height="64" src="https://storage.googleapis.com/a1aa/image/2e8VmUOy5D9UfLkoFM9VdslCnPSvuG3vF18MpdKamMI.jpg" width="64"/>
       <h3 class="text-xl font-bold text-gray-900 mt-3">
@@ -250,3 +284,4 @@
   </footer>
  </body>
 </html>
+
